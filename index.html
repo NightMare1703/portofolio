@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="sc/style.css">
+  <link rel="stylesheet" href="sc/ball-animation.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="sc/slide-animation.css">
+</head>
+
+<body class="bg-dark">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white" href="#">Fahmi A'laaudin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path style="color: white;" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fw-regular" href="#home">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-regular" href="#experience">Pengalaman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-regular" href="#project">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-regular" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-regular" href="#contact">Hubungi Saya</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- HOME -->
+  <div class="home background container-fluid" id="home">
+    <div class="mt-2 mt-lg-0 row align-items-center" id="banner">
+      <div data-aos="fade-right" data-aos-duration="1500" class="offset-1 col-10 col-lg-5 align-self-center">
+        <h2 class="mt-5 mt-lg-0 poppins-semibold">Saya Fahmi A'laaudin</h2>
+        <h1 class="poppins-bold title">Saya Web Developer</h1>
+        <p class="poppins-regular">Memiliki keahlian di bidang Desain Grafis, Video Editing, dan Web Development.
+          Berpengalaman lebih
+          dari 2 tahun dalam dunia marketing dan advertising. Memiliki penguasaan software teknis yang mumpuni dan
+          keterampilan komunikasi.
+        </p>
+        <ul class="cta d-flex justify-content-start p-0">
+          <li class="d-inline ms-1 ps-xl-0">
+            <a href="https://www.instagram.com/faldin_1703" terget="_blank">
+              <img style="width: 40px;" class="drop-shadow-hover" src="icon/instagram.png" alt="">
+            </a>
+          </li>
+          <li class="d-inline ps-4 ps-xl-5">
+            <a href="https://wa.me/6285173036787" terget="_blank">
+              <img style="width: 40px;" class="drop-shadow-hover" src="icon/whatsapp.png" alt="">
+            </a>
+          </li>
+          <li class="d-inline ps-4 ps-xl-5">
+            <button class="btn btn-outline-info border-3 text-white"
+              style="filter: drop-shadow(0 0 0.75rem rgb(0, 217, 255));"><a href="sc/cv.pdf"
+                class="text-decoration-none">Download CV</a></button>
+          </li>
+        </ul>
+      </div>
+      <div data-aos="zoom-in" data-aos-duration="1500" class="offset-1 offset-lg-2 col-lg-4">
+        <img class="hero mb-5" src="img/hero.png">
+      </div>
+      <span class="ball position-absolute"></span>
+      <span class="ball position-absolute"></span>
+      <span class="ball position-absolute"></span>
+      <span class="ball position-absolute"></span>
+    </div>
+  </div>
+  <!-- HOME END -->
+
+  <!-- EXPERIENCE -->
+  <div id="experience" class="bg-dark py-4 container-fluid position-relative">
+    <h1 data-aos="fade-up" data-aos-duration="1000" class="title col-12 text-center mb-5">Pengalaman</h1>
+    <div data-aos="fade-up" data-aos-duration="1000" class="accordion accordion-flush">
+      <div class="mt-3 mb-3 offset-lg-2 col-lg-8  p-0 border border-3 border-info rounded accordion-item bg-dark">
+        <div
+          class="accordion-header d-flex flex-row btn rounded-0 border-0 container-fluid position-relative Collapse collapsed"
+          data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" id="flush-headingOne"
+          aria-controls="flush-collapseOne">
+          <span class="subTitle poppins-semibold">01</span>
+          <span class="subTitle poppins-semibold ms-3"">Admin Yayasan</span>
+            <span class=" position-absolute top-50 end-0 translate-middle-y"><img class="drop2" src="icon/right.png"
+              alt=""></span>
+        </div>
+        <div class="value px-4 py-4 accordion-collapse collapse" id="flush-collapseOne"
+          aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <span>Menyusun dan mengelola jadwal kegiatan sosial yayasan.
+            <br>
+            <br>
+            Mengelola dokumentasi visual dan non-visual kegiatan sosial untuk laporan donatur dan publikasi di media
+            sosial.
+            <br>
+            <br>
+            Merancang dan memproduksi banner serta materi visual untuk kampanye ajakan berdonasi.
+            <br>
+            <br>
+            Mengembangkan dan memelihara website company profile yayasan.</span>
+          <div class="dokumentasi mt-4 mb-2 d-flex justify-content-around">
+            <span><img class="exp-img" src=""></span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-3 mb-3 offset-lg-2 col-lg-8  p-0 border border-3 border-info rounded accordion-item bg-dark">
+        <div
+          class="accordion-header d-flex flex-row btn rounded-0 border-0 container-fluid position-relative Collapse collapsed"
+          data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" id="flush-headingOne"
+          aria-controls="flush-collapseTwo">
+          <span class="subTitle poppins-semibold">02</span>
+          <span class="subTitle poppins-semibold ms-3"">Marketing Properti</span>
+            <span class=" position-absolute top-50 end-0 translate-middle-y"><img class="drop2" src="icon/right.png"
+              alt=""></span>
+        </div>
+        <div class="value px-4 py-4 accordion-collapse collapse" id="flush-collapseTwo"
+          aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <span>Mengimplementasikan strategi follow-up yang efektif untuk meningkatkan konversi pelanggan.
+            <br><br>
+            Melakukan presentasi produk (unit properti) dan melayani konsultasi pembelian bagi calon konsumen.</span>
+          <div class="dokumentasi mt-4 mb-2 d-flex justify-content-around">
+            <span><img class="exp-img" src="img/agent1.png"></span>
+            <span><img class="exp-img" src="img/agent2.png"></span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-3 mb-3 offset-lg-2 col-lg-8  p-0 border border-3 border-info rounded accordion-item bg-dark">
+        <div
+          class="accordion-header d-flex flex-row btn rounded-0 border-0 container-fluid position-relative Collapse collapsed"
+          data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" id="flush-headingOne"
+          aria-controls="flush-collapseThree">
+          <span class="subTitle poppins-semibold">03</span>
+          <span class="subTitle poppins-semibold ms-3"">Advertiser</span>
+            <span class=" position-absolute top-50 end-0 translate-middle-y"><img class="drop2" src="icon/right.png"
+              alt=""></span>
+        </div>
+        <div class="value px-4 py-4 accordion-collapse collapse" id="flush-collapseThree"
+          aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <span>Membuat konten iklan yang layak agar memikat lebih
+            banyak konsumen. <br><br>
+            Membuat laporan hasil iklan untuk dievaluasi
+            bersama dengan tim marketing. <br><br>
+            Membuat desain grafis untuk keperluan event dan
+            flayer media sosial. <br><br>
+          </span>
+          <div class="dokumentasi mt-4 mb-2 d-flex justify-content-around">
+            <span><img style="border-radius: 8px;" class="exp-img" src="img/123.png"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- EXPERIENCE END -->
+
+  <!-- PROJECT GALLERY -->
+  <section id="project" class="bg-project py-4 container-fluid">
+    <div class="">
+      <h1 data-aos="fade-up" data-aos-duration="1500" class="title text-center">Gallery</h1>
+      <div class="container-project">
+        <ul class="mt-4 d-flex justify-content-around text-decoration-none" style="padding-left: 5px;">
+          <li data-aos="zoom-in" data-aos-duration="1500"
+            class="list-unstyled kategori subTitle poppins-semibold poster">Poster</li>
+          <li data-aos="zoom-in" data-aos-duration="1700"
+            class="list-unstyled kategori subTitle poppins-semibold kategori-aktif design3d">Desain 3D</li>
+          <li data-aos="zoom-in" data-aos-duration="1800" class="list-unstyled kategori subTitle poppins-semibold uiux">
+            UI/UX</li>
+        </ul>
+        <div class=" gallery container">
+          <ul id="img-container" class="gallery-project d-flex flex-wrap justify-content-evenly m-0 p-0">
+            <li data-aos="zoom-in" data-aos-duration="1500" class="m-2 list-unstyled"><img class="pro-img rounded-2"
+                src="img/3d2.png"></li>
+            <li data-aos="zoom-in" data-aos-duration="1500" class="m-2 list-unstyled"><img class="pro-img rounded-2"
+                src="img/3d1.png"></li>
+            <li data-aos="zoom-in" data-aos-duration="1500" class="m-2 list-unstyled"><img class="pro-img rounded-2"
+                src="img/3d3.png"></li>
+            <li data-aos="zoom-in" data-aos-duration="1500" class="m-2 list-unstyled"><img class="pro-img rounded-2"
+                src="img/3d4.png"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECT GALLERY END -->
+
+  <!-- SKILLS -->
+  <section id="skills" class="bg-skills py-4 mx-lg-0 container-fluid overflow-hidden">
+    <h1 data-aos="fade-up" data-aos-duration="1500" class=" title text-center">Skills</h1>
+    <div class="row skills-container">
+      <div class="skills-left d-flex my-4 justify-content-center">
+        <a href="https://www.adobe.com/id_id/products/photoshop.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (1).png"></a>
+        <a href="https://www.adobe.com/id_id/products/illustrator.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (2).png"></a>
+        <a href="https://www.canva.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (3).png"></a>
+        <a href="https://www.capcut.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (4).png"></a>
+        <a href="https://www.figma.com/design/" target="_blank"><img class="skill-icon" src="icon/skills/1 (5).png"></a>
+        <a href="https://wordpress.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (6).png"></a>
+        <a href="https://getbootstrap.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (10).png"></a>
+        <a href="https://tailwindcss.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (11).png"></a>
+        <a href="https://www.php.net/" target="_blank"><img class="skill-icon" src="icon/skills/1 (12).png"></a>
+        <a href="https://www.mysql.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (13).png"></a>
+        <a href="https://laravel.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (14).png"></a>
+        <a href="https://nodejs.org/en" target="_blank"><img class="skill-icon" src="icon/skills/1 (15).png"></a>
+        <a href="https://www.adobe.com/id_id/products/photoshop.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (1).png"></a>
+        <a href="https://www.adobe.com/id_id/products/illustrator.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (2).png"></a>
+        <a href="https://www.canva.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (3).png"></a>
+        <a href="https://www.capcut.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (4).png"></a>
+        <a href="https://www.figma.com/design/" target="_blank"><img class="skill-icon" src="icon/skills/1 (5).png"></a>
+        <a href="https://wordpress.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (6).png"></a>
+        <a href="https://getbootstrap.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (10).png"></a>
+        <a href="https://tailwindcss.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (11).png"></a>
+        <a href="https://www.php.net/" target="_blank"><img class="skill-icon" src="icon/skills/1 (12).png"></a>
+        <a href="https://www.mysql.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (13).png"></a>
+        <a href="https://laravel.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (14).png"></a>
+        <a href="https://nodejs.org/en" target="_blank"><img class="skill-icon" src="icon/skills/1 (15).png"></a>
+      </div>
+      <div class="skills-right d-flex my-4 justify-content-center">
+        <a href="https://www.adobe.com/id_id/products/photoshop.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (1).png"></a>
+        <a href="https://www.adobe.com/id_id/products/illustrator.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (2).png"></a>
+        <a href="https://www.canva.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (3).png"></a>
+        <a href="https://www.capcut.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (4).png"></a>
+        <a href="https://www.figma.com/design/" target="_blank"><img class="skill-icon" src="icon/skills/1 (5).png"></a>
+        <a href="https://wordpress.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (6).png"></a>
+        <a href="https://getbootstrap.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (10).png"></a>
+        <a href="https://tailwindcss.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (11).png"></a>
+        <a href="https://www.php.net/" target="_blank"><img class="skill-icon" src="icon/skills/1 (12).png"></a>
+        <a href="https://www.mysql.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (13).png"></a>
+        <a href="https://laravel.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (14).png"></a>
+        <a href="https://nodejs.org/en" target="_blank"><img class="skill-icon" src="icon/skills/1 (15).png"></a>
+        <a href="https://www.adobe.com/id_id/products/photoshop.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (1).png"></a>
+        <a href="https://www.adobe.com/id_id/products/illustrator.html" target="_blank"><img class="skill-icon" src="icon/skills/1 (2).png"></a>
+        <a href="https://www.canva.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (3).png"></a>
+        <a href="https://www.capcut.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (4).png"></a>
+        <a href="https://www.figma.com/design/" target="_blank"><img class="skill-icon" src="icon/skills/1 (5).png"></a>
+        <a href="https://wordpress.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (6).png"></a>
+        <a href="https://getbootstrap.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (10).png"></a>
+        <a href="https://tailwindcss.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (11).png"></a>
+        <a href="https://www.php.net/" target="_blank"><img class="skill-icon" src="icon/skills/1 (12).png"></a>
+        <a href="https://www.mysql.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (13).png"></a>
+        <a href="https://laravel.com/" target="_blank"><img class="skill-icon" src="icon/skills/1 (14).png"></a>
+        <a href="https://nodejs.org/en" target="_blank"><img class="skill-icon" src="icon/skills/1 (15).png"></a>
+      </div>
+    </div>
+  </section>
+  <!-- SKILLS END -->
+
+  <!-- CONTACT ME -->
+  <section id="contact" class="bg-contact-me py-5 container-fluid ">
+    <div class="row align-items-center">
+      <form data-aos="fade-right" data-aos-duration="1500"
+        class="offset-1 col-10 col-xl-4 bg-dark rounded-3 contact-me p-4">
+        <h2 class="poppins-semibold">Mari kerja bersama</h2>
+        <div class="mb-3">
+          <label for="inputName" class="text-white poppins-regular form-label">Nama</label>
+          <input type="text" required class="form-control border-dark " id="nama" placeholder="Nama">
+        </div>
+        <div class="mb-3">
+          <label for="inputEmail" class="text-white poppins-regular form-label">Alamat email</label>
+          <input type="email" required class="form-control border-dark " id="email" placeholder="Email">
+        </div>
+        <div class="mb-3">
+          <label for="inputMessage" class="text-white poppins-regular form-label">Pesan</label>
+          <textarea style="height: 150px;" type="text" required class=" border-dark form-control" id="text"
+            placeholder="Isi pesan"></textarea>
+        </div>
+        <a style="width: 120px;" type="submit" class="btn poppins-semibold bt-hover" id="kirim">Kirim</a>
+      </form>
+      <div data-aos="fade-right" data-aos-duration="2000" class="sosmed offset-1 offset-xl-2 col-10 col-xl-5">
+        <a class="mt-5 d-block text-decoration-none" href="https://wa.me/6285173036787" target="_blank">
+          <img class="drop-shadow-hover d-inlineblock cm-logo" src="icon/whatsapp.png" alt="">
+          <span class="about-me ms-2 fs-xl-5">+62-851-7303-6787</span>
+        </a>
+        <a class="mt-5 d-block text-decoration-none" href="alaudinfahmi2@gmail.com">
+          <img class="drop-shadow-hover d-inlineblock cm-logo" src="icon/email.png" alt="">
+          <span class="about-me ms-2 fs-xl-5">alaudinfahmi2@gmail.com</span>
+        </a>
+        <a class="mt-5 d-block text-decoration-none" href="https://www.instagram.com/faldin_1703" target="_blank">
+          <img class="drop-shadow-hover d-inlineblock cm-logo" src="icon/instagram.png" alt="">
+          <span class="about-me ms-2 fs-xl-5">@faldin_1703</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT ME END -->
+
+  <!-- FOOTER -->
+  <footer class="pt-4 container">
+    <a class="text-decoration-none" href="#home">
+      <h1 class=" title text-center">Fahmi A'laaudin</h1>
+    </a>
+    <div class="mt-5" id="navbarNav row">
+      <ul class="d-flex justify-content-evenly offset-xl-3 col-xl-6 p-0">
+        <li class="list-unstyled nav-item">
+          <a style="font-size: 14px;" class="nav-link fs-7 fs-xl-2 fw-regular" href="#home">Beranda</a>
+        </li>
+        <li class="list-unstyled nav-item">
+          <a style="font-size: 14px;" class="nav-link fs-7 fs-xl-2 fw-regular" href="#experience">Pengalaman</a>
+        </li>
+        <li class="list-unstyled nav-item">
+          <a style="font-size: 14px;" class="nav-link fs-7 fs-xl-2 fw-regular" href="#project">Gallery</a>
+        </li>
+        <li class="list-unstyled nav-item">
+          <a style="font-size: 14px;" class="nav-link fs-7 fs-xl-2 fw-regular" href="#skills">Skills</a>
+        </li>
+        <li class="list-unstyled nav-item">
+          <a style="font-size: 14px;" class="nav-link fs-7 fs-xl-2 fw-regular" href="#contact">Hubungi Saya</a>
+        </li>
+      </ul>
+    </div>
+    <p style="font-size: 14px;" class="text-center mt-5">Copyright@2025 | Fahmi A'laaudin</p>
+  </footer>
+  <!-- FOOTER END -->
+
+  <script src="sc/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init()</script>
+</body>
+
+</html>
